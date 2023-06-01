@@ -13,17 +13,17 @@
 
 	2.4 修改default.yml数据库信息
 		spring.datasource:
-		  url: jdbc:mysql://192.168.99.110:3306/camunda?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+		  url: jdbc:mysql://xxxx:3306/camunda?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
 		  driver-class-name: com.mysql.cj.jdbc.Driver
 		  username: root
-		  password: root4IAMW@2021
+		  password: xxxx
 		
 	2.5 修改product.yml数据库信息
 		spring.datasource:
-		  url: jdbc:mysql://192.168.99.110:3306/camunda-prod?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+		  url: jdbc:mysql://xxxx:3306/camunda-prod?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
 		  driver-class-name: com.mysql.cj.jdbc.Driver
 		  username: root
-		  password: root4IAMW@2021
+		  password: xxxx
 		  		
 	2.6 把 mysql-connector-java-8.0.21.jar 放入 camunda-bpm-run-7.17.0\configuration\userlib目录下
 	
