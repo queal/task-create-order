@@ -16,7 +16,7 @@ public class TaskNotifyWorker {
                 .build();
 
 
-        client.subscribe("task-nodify")
+        client.subscribe("task-notify")
                 .lockDuration(1000)
                 .handler((externalTask, externalTaskService) -> {
 
